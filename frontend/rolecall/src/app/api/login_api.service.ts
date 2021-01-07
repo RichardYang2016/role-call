@@ -189,7 +189,7 @@ export class LoginApi {
       }).catch(e => {
         //alert('Sign out failed!');  it makes no sense to pop this to user.
         // they cannot do anything anyway.
-        console.log(e);
+        // console.log(e);
       });
     }
   }
